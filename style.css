@@ -13,6 +13,15 @@ section{
     background-image: url(img/bgMAIN.png); 
 
     }
+    #about{
+        background-image: url(img/bgABOUT.png);
+    }
+    #skills{
+        background-image: url(img/bgSKILLS.png);
+    }
+    #moiRABoti{
+        background-image: url(img/bgWORKS.png);
+    }
     .main-content{
         background-repeat: no-repeat;
         background-size: contain;
@@ -20,12 +29,7 @@ section{
         width: 849px;
         background-image: url(img/form1.png);
         padding-left: 30px;
-    }
-    .main-block{
-        display: flex;
-        justify-content: center;
-        align-items:center ;
-        min-height: 70vh;
+        z-index: 2;
     }
     .main-block{
         flex-direction: column;
@@ -72,7 +76,7 @@ section{
             align-items: center;
             color: #fff;
             font-size: 80px;
-            box-shadow: 5px 5px 5px black;
+            text-align: center;
         }
         .about-content{
             display: flex;
@@ -93,8 +97,8 @@ section{
         .about-card{
             background-image: url(img/form2.png);
             background-repeat: no-repeat;
-            height: 376px;
-            width: 346px;
+            height: 346px;
+            width: 376px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -107,6 +111,7 @@ section{
             font-size: 17px;
             padding-left: 20px;
             line-height: 25px;
+            align-self: start;
             font-family: 'Comfortaa', sans-serif;
         }
         .about-card img{
@@ -134,6 +139,43 @@ section{
         .skill-block{
             background-image: url(img/bgSKILLS.png);
         }
-        .naviki{
-            margin-top: 80px;
+        .works-block img{
+            margin: 0 20px 0 20px;
+            width: 27%;
+        }
+        .comments-block{
+
+            text-align: center;
+        }
+        .comment-card{
+            background-image: url(img/card.png);
+            height: 300px;
+            max-width: 200px;
+            display: flex;
+            justify-content: center;
+
+        }
+        .comment-card h3{
+            font-family: 'Comfortaa', sans-serif;
+            font-size: 18px;
+            padding: 10px 10px 10px 10px;
+        }
+        .comment-card p{
+            font-family: 'Comfortaa', sans-serif;
+            font-size: 18px;
+            padding: 10px 20px 10px 20px;
+            display: flex;
+            justify-content: center;
+        }
+        #comments{
+          background-image: url(img/comment.png);  
+          height: 327px;
+          width: 161px;
+          display: flex;
+          justify-content: center;
+        }
+        .comments p{
+          font-family: 'Comfortaa', sans-serif;
+          font-size: 20px;
+          max-width: 250px;
         }
