@@ -239,3 +239,44 @@ nav{
 .active{
     background-color: #bbff2c;
 }
+@media (max-width: 520px) {
+    body {background-color: #792AFF;}
+}
+@media (min-width: 521px) and
+            (max-width:960px) {
+                body{
+                    background-color:#bbff2c ;
+                }
+            }
+@media (min-width:961) {
+    body {
+        background-color:black;
+        }
+}
+@media (max-width:1000px) {
+    .nav-links{
+        display: none;
+    }
+
+    .logo{
+        font-size: 40px;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    .main-content { 
+        max-width: 320px;
+    }
+    .main-title{
+        padding-top: 30px; font-size: 30px;
+    }
+    .main-subtitle{ 
+        font-size: 15px;
+    }
+    .planet{
+        display: none;
+    }
+    .title{
+        font-size: 50px;
+        padding-top: 30px;
+        }
+    }
